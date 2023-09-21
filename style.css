@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Verdana";
+    src: url('/Landing_page_for_photographer/fonts/verdana-font-family/verdana.ttf');
+}
+
+body {
+    overflow-x: hidden;
+    font-family: "Verdana", sans-serif;
+}
+
+.bg-img {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.navbar-brand {
+    font-size: 25px;
+}
+
+#navbarNav {
+    text-align: right;
+}
+
+.navbar-nav {
+    font-size: 20px;
+    color: #fff;
+}
+
+.vl {
+    border-left: 4px solid white;
+    height: 150px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+    .vl {
+        display: none;
+    }
+}
