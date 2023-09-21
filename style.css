@@ -20,7 +20,7 @@ body {
 }
 
 .navbar-brand {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #navbarNav {
@@ -33,14 +33,101 @@ body {
 }
 
 .vl {
-    border-left: 4px solid white;
+    border-left: 4px solid grey;
     height: 150px;
-    margin-top: 40px;
+    margin-top: 6vh;
     margin-left: 80px;
 }
 
-@media only screen and (max-width: 600px) {
+.social-icons i {
+    font-size: 35px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.social-icons i:nth-child(1){
+    padding-top: 30px;
+}
+
+.social-icons i:nth-child(2) {
+    padding-top: 20px;
+}
+
+.social-icons i:nth-child(3) {
+    padding-top: 20px;
+}
+
+.heading-container {
+    width: 150px;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    margin: -150px 0 20vh 30vh;
+}
+
+.intro-text {
+    color: #fff;
+    margin-top: -50vh;
+}
+
+.intro-text h1 {
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+
+.hire-me {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    border: 5px solid rgb(214, 130, 61);
+    margin: -160px 20px 100px 200px;
+    color: rgb(214, 130, 61);
+    background: transparent;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.hire-me:hover {
+    background-color: rgb(214, 130, 61);
+    color: #000;
+    font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 995px) {
     .vl {
+        display: none;
+    }
+
+    .social-icons {
+        display: none;
+    }
+
+    .intro-text {
+        display: none;
+    }
+
+    .hire-me {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .vl {
+        display: none;
+    }
+
+    .social-icons {
+        display: none;
+    }
+
+    .hire-me {
         display: none;
     }
 }
