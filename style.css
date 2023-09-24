@@ -11,6 +11,7 @@
 body {
     overflow-x: hidden;
     font-family: "Verdana", sans-serif;
+    scroll-behavior: smooth;
 }
 
 .bg-img {
@@ -37,11 +38,16 @@ body {
     color: #fff;
 }
 
+.social {
+    height: 100%;
+    width: 300px;
+}
+
 .vl {
-    border-left: 4px solid grey;
-    height: 150px;
-    margin-top: 6vh;
+    border-left: 3px solid grey;
+    height: 25vh;
     margin-left: 80px;
+    margin-top: 10vh;
 }
 
 .social-icons i {
@@ -115,7 +121,7 @@ body {
     background-color: #fff;
     color: #000;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .skills-section h2 {
